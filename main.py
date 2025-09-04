@@ -18,9 +18,12 @@ def main():
         case 1:  
             import solutions.AOC_1
             solutions.AOC_1.run_solution(args.input)
-        case ľ:  
+        case 2:  
             import solutions.AOC_2
             solutions.AOC_2.run_solution(args.input)
+        case 3:  
+            import solutions.AOC_3
+            solutions.AOC_3.run_solution(args.input)    
 
             
 
