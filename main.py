@@ -23,10 +23,19 @@ def main():
             solutions.AOC_2.run_solution(args.input)
         case 3:  
             import solutions.AOC_3
-            solutions.AOC_3.run_solution(args.input)    
-
-            
-
+            solutions.AOC_3.run_solution(args.input)
+        case 4:  
+            import solutions.AOC_4
+            solutions.AOC_4.run_solution(args.input)                  
+        case 5:  
+            import solutions.AOC_3
+            solutions.AOC_3.run_solution(args.input)  
+        case 6:  
+            import solutions.AOC_3
+            solutions.AOC_3.run_solution(args.input)              
+        case 7:  
+            import solutions.AOC_3
+            solutions.AOC_3.run_solution(args.input)  
 
 
 
